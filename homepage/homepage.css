@@ -1,0 +1,18 @@
+
+/* making width inclusive of padding and margins */
+* {  box-sizing: border-box; }
+
+body {
+  /* to eliminate idle irritating space that prevents true fullscreen effect */
+  margin: 0;
+}
+
+
+/**************** dealing with the background_video *******/
+#background_video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+/**************** Finished dealing with the background_video *******/

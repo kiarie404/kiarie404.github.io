@@ -5,3 +5,7 @@
 - [ ] responsive videos
 - [ ] responsive texts
 - [ ] responsive window
+
+
+##### fixes
+- [ ] Fix video looping
