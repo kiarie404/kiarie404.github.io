@@ -1,0 +1,28 @@
+
+* {  box-sizing: border-box; } /* making width inclusive of padding and margins */
+
+body {  margin: 0; } /* to eliminate idle irritating space that prevents true fullscreen effect */
+
+
+/****** setting up the whole_page_div *****/
+/****** it holds both the menu bar and video element  ****/
+#whole_page_div{
+  position: relative;  /* whole_page_div is relative to the .body */
+  height: 100vh;      /* occupies the whole viewport height*/
+  width: 100vw;      /* occupies the whole viewport width*/
+  overflow: hidden;  /* removes all the scroll bars if content does not fit */
+  background-color: blue;
+}
+
+/**************** dealing with the background_video *******/
+#background_video{
+  position: absolute; /* absolute to the whole_page_div */
+  width: auto;   /* helps maintain the width aspect ratio of the video while scaling */
+  height: auto; /* helps maintain the height aspect ratio of the video while scaling */
+  min-width: 100%; /* video occupies all the available width in the container div */
+  min-height: 100%; /* video occupies all the available height in the container div */
+  /* but we need to put video at the centre... to make it responsive */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
