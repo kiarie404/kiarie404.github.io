@@ -1,5 +1,5 @@
 Finish site
-  - [ ] host on github
+  - [x] host on github
   - [ ] get mail working
   - [ ] add resume { view on site, download, .md }
   - [ ] add projects { title, description, demo, github, documentation }
