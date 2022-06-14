@@ -92,15 +92,18 @@
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<input type="text" name="name" id="name" required />
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input type="email" name="email" id="email" />
+											<input type="hidden" name="_subject" value="FROM YOUR SITE">
+											<input type="hidden" name="_captcha" value="false">
+											<input type="hidden" name="_next" value="https://kiarie404.github.io/main_site/index.html">
+											<input type="email" name="email" id="email" placeholder="Email Address" required />
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<textarea  id="message" rows="4"></textarea>
+											<textarea  id="message" name= "message" rows="4" required ></textarea>
 										</div>
 									</div>
 									<ul class="actions">
