@@ -10,4 +10,3 @@ Finish site
 Beef up site
 - [ ] increase website SEO
 - [ ] See my website traffic.
-- [ ] beef up my blog
