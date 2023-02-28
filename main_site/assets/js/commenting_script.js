@@ -1,0 +1,15 @@
+<script src="https://giscus.app/client.js"
+    data-repo="kiarie404/kiarie404.github.io"
+    data-repo-id="R_kgDOHF8nog"
+    data-category="[ENTER CATEGORY NAME HERE]"
+    data-category-id="[ENTER CATEGORY ID HERE]"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="dark_dimmed"
+    data-lang="en"
+    crossorigin="anonymous"
+    async>
+</script>
